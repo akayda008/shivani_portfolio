@@ -1,3 +1,38 @@
-.container{
-    
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #012030;
+    padding: 20px;
 }
+
+nav ul {
+    display: flex;
+    list-style-type: georgian;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #13678A;
+    text-decoration: underline;
+}
+
+
+.container{
+    max-width: 60%;
+    margin: 4% auto;
+    padding: 3%;
+    background-color: beige;
+    border: 0.1% solid grey;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
