@@ -1,3 +1,8 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     display: flex;
     justify-content: center;
@@ -27,16 +32,22 @@ header nav ul li a:hover {
 
 footer {
     display: block;
-    background-color: #45c4b0;
+    background-color: #012030;
     padding: 5px;
 }
 
 footer nav ul{
-    display: inline-flex;
-    list-style: none;
+    display: flex;
+    list-style-type: none;
 }
 
-footer nav ul li a {
+footer nav ul li{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer nav ul li a{
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -54,4 +65,12 @@ footer nav ul li a:hover {
     background-color: beige;
     border: 0.1% solid grey;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+footer .container{
+    max-width: 100%;
+    margin: 0px auto;
+    padding: 0px;
+    background-color: #45c4b0;
+    box-sizing: border-box;
 }
